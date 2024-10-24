@@ -28,7 +28,7 @@ The ASK Evaluation API is a FastAPI-based backend service that helps entrepreneu
 
 ```bash
 git clone [repository-url]
-cd ask-evaluation-api
+cd askllm
 ```
 
 2. Install dependencies:

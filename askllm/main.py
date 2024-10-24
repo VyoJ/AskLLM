@@ -318,3 +318,8 @@ just a single request."""
         return {"status": "success", "message": "Reset to defaults successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=10000)
